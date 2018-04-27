@@ -1,0 +1,34 @@
+.second-conatiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 17px;
+  min-height: 50vh;
+}
+
+.second-section {
+  width: 25%;
+  text-align: center;
+}
+
+.second-section i {
+  font-size: 1.95em;
+}
+
+.second-section p {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 594px) {
+  .second-conatiner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+  }
+}

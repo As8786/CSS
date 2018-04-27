@@ -1,0 +1,55 @@
+.third-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 80vh;
+  background-color: ghostwhite;
+}
+
+.third-first-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.third-first-section h1 {
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+}
+
+.third-first-section p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+
+.third-first-section input {
+  font-family: "Open Sans", sans-serif;
+}
+
+.third-first-section input {
+  border: 2px solid black;
+  width: 200px;
+}
+
+.third-second-section {
+  height: 60vh;
+  width: 45%;
+  background-image: url("/third.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 910px) {
+  .third-container {
+    flex-direction: column;
+  }
+  .third-first-section {
+    align-items: center;
+    width: 80%;
+    margin-bottom: 27px;
+  }
+  .third-second-section {
+    width: 60%;
+    height: 40vh;
+  }
+}
