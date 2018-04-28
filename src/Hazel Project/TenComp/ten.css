@@ -1,0 +1,13 @@
+.ten-conatiner{
+    height: 30vh;
+    background-color: rgba(245,245,245,1);
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.icon-container a{
+    margin:7px;
+    color: inherit;
+    opacity: 0.8;
+}

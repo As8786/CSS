@@ -6,6 +6,9 @@ import Four from './FourComp/FourComp'
 import Five from './FiveComp/FiveComp'
 import Six from "./SixComp/SixComp"
 import Eight from "./EightComp/EightComp"
+import Nine from './NineComp/NineComp'
+import Ten from './TenComp/TenComp'
+import Seven from './SevenComp/SevenComp'
 
 class Main extends React.Component{
     render(){
@@ -16,7 +19,10 @@ class Main extends React.Component{
                 <Four />
                 <Five />
                 <Six/>
+                <Seven />
                 <Eight/>
+                <Nine />
+                <Ten/>
              </div>   
         )
     }

@@ -1,7 +1,8 @@
 .six-container {
-  height: 60vh;
+  height: 92vh;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  margin-top: 57px;
 }
 
 .six-container h1 {
@@ -25,6 +26,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .six-container {
+    height: auto;
+  }
   .six-first-section {
     flex-direction: column;
     align-items: center;

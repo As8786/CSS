@@ -7,18 +7,22 @@ let tab2=["8-5.jpg","8-6.jpg","8-7.jpg","8-8.jpg"]
 export default class Eight extends React.Component{
     render(){
         return <div className="eight-container">
+            <h1> OUR LATEST WORK </h1>
+            <h5> VIEW ALL PORTFOLIO  </h5>
+
             <div className="eight-section">
-                {tab1.map((el,i) => <div className='content-wrapper'>
-                    <div className="eight-section-part" style={{backgroundImage:`url(/${el})`}}/> 
-                    </div>)}
+                {tab1.map((el,i) => <div className="eight-section-part" style={{backgroundImage:`url(/${el})`}}> 
+                    <div className="gradient" />
+                    </div>
+                    )}
             </div>
             
             <div className="eight-section">
-                {tab2.map((el,i) =><div className='content-wrapper'>
-                     <div className="eight-section-part" style={{backgroundImage:`url(/${el})`}}/> 
-                     </div>)}
+                {tab2.map((el,i) => <div className="eight-section-part" style={{backgroundImage:`url(/${el})`}}> 
+                     <div className="gradient" />
+                     </div>
+                     )}
             </div>
-
         </div>
     }
 }
