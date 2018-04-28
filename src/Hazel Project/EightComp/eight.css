@@ -1,0 +1,42 @@
+.eight-container{
+    height: 80vh;
+    margin-top: 170px ;
+}
+
+.eight-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-wrapper{
+    width : 20%;
+    height: 34vh;
+}
+
+.eight-section-part{
+    width : 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    margin-top: 20px;
+    transition: all 1s ease;
+
+}
+
+.eight-section-part:hover{
+    background-size: 140%;
+}
+
+@media screen and (max-width : 768px){
+    .eight-container{
+        height: auto;
+    }
+    .eight-section{
+        flex-direction: column;
+    }
+    .content-wrapper{
+        width : 50%;
+        height: 34vh;
+    }
+}

@@ -1,0 +1,74 @@
+.five-container {
+  background-image: url("/five.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  max-height: 200vh;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+.five-container .light-gradiant {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(236, 234, 234, 0.55), rgba(5, 5, 5, 0.7));
+
+}
+
+.five-container h1 {
+  padding-top: 70px;
+  margin-bottom: 70px;
+}
+
+.five-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.five-section-part {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 17px 0;
+}
+
+.five-section-part i {
+  font-size: 3em;
+  color: rgb(197, 235, 238);
+}
+
+.five-section-part-p-number {
+  font-size: 1.5em;
+}
+
+.five-section-part-p-description {
+  color: rgb(156, 19, 19);
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .five-container {
+    height: auto;
+  }
+  .five-container h1 {
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .five-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .five-section-part {
+    margin-top: 40px;
+  }
+}

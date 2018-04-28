@@ -7,13 +7,11 @@
 }
 
 .third-first-section {
-  display: flex;
-  flex-direction: column;
   width: 30%;
 }
 
 .third-first-section h1 {
-  display: inline;
+  display: inline-block;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -44,9 +42,9 @@
     flex-direction: column;
   }
   .third-first-section {
-    align-items: center;
+    text-align: center;
     width: 80%;
-    margin-bottom: 27px;
+    margin-bottom: 37px;
   }
   .third-second-section {
     width: 60%;
