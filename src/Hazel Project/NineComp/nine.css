@@ -1,13 +1,23 @@
 .nine-container{
-   text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Open Sans", sans-serif;
-    height: 55vh;
-    margin-top: 57px;
-    margin-bottom: 37px;
+    height: 70vh;
+    text-align: center;
+    
+}
+
+.nine-container h2{
+    color:#5a5959;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 1.8em;
+
 }
 
 .img-container{
-    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,16 +49,21 @@
     text-align: center;
     width :70%;
     font-size: 0.8em;
-    font-weight: 600
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
 
 .infor-conatiner .inform-name{
     font-size: 0.9em;
-    font-weight: bold
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(39, 39, 39);
 }
 
 @media screen and (max-width:768px){
     .nine-container{
         height: auto;
+        margin-top:27px;
     }
+
 }

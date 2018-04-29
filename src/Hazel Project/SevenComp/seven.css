@@ -11,11 +11,15 @@
 }
 
 .seven-container h3{
-    color: #d8d8d8
+    color: #d8d8d8;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    margin-bottom: 27px;
+    font-weight:400;
 }
 
 .seven-container input{
-    width: 157px;
+    width: 200px;
     padding: 10px;
     background-color: transparent;
     border-color: rgb(216, 216, 216);
@@ -23,6 +27,7 @@
     border-radius: 3px;
     transition: ease 1s;
     outline: none;
+    letter-spacing: 3.5px;
 }
 
 .seven-container input:hover{

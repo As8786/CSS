@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   height: 80vh;
-  color: rgb(255, 255, 255);
+  color: rgb(199, 199, 199);
   text-align: center;
   font-family: "Open Sans", sans-serif;
   position: relative;
@@ -29,9 +29,11 @@
   align-items: stretch;
 }
 
-.five-container h1 {
-
+.five-container h2 {
   margin-bottom: 70px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 .five-section {
@@ -50,17 +52,20 @@
 
 .five-section-part i {
   font-size: 3em;
-  color: rgb(197, 235, 238);
 }
 
 .five-section-part-p-number {
   font-size: 1.5em;
+  letter-spacing: 2px;
 }
 
 .five-section-part-p-description {
-  color: rgb(156, 19, 19);
   margin-top: 0px;
   font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-weight:100;
+  font-size: .8em;
 }
 
 
@@ -68,7 +73,7 @@
   .five-container {
     height: 210vh;
   }
-  .five-container h1 {
+  .five-container h2 {
     padding-top: 50px;
     margin-bottom: 20px;
   }

@@ -17,15 +17,17 @@
 }
 
 .second-section h6{
-  color: #3f3f3f;
+  color: #474747;
   font-size: .8em;
   font-weight: bold;
   margin-bottom: 7px;
+  letter-spacing: 2.5px;
 }
 
 .second-section p {
   font-family: "Open Sans", sans-serif;
-  font-size: .9em;
+  font-size: 0.8em;
+  letter-spacing: 1px;
   color: #595959;
 }
 

@@ -22,7 +22,7 @@ export default class Nine extends React.Component{
     render(){
         return (
             <div className="nine-container">
-                <h1> OUR CLIENTS LOVE US  </h1>
+                <h2> OUR CLIENTS LOVE US  </h2>
 
                 <div className="img-container" >
                     {imgTab.map((el, i)=> <div className ="img-display"

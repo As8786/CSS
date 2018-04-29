@@ -7,13 +7,13 @@ class Five extends React.Component {
       <div className="five-container">
         <div className="light-gradiant" />
         <div className='five-text-container'>
-        <h1> AGENCY ACHIEVEMENTS </h1>
+        <h2> AGENCY ACHIEVEMENTS </h2>
 
         <div className="five-section">
           <div className="five-section-part">
             <i class="far fa-clock" />
             <p className="five-section-part-p-number"> 1250 </p>
-            <p className="five-section-part-p-description"> Hours of Work </p>
+            <p className="five-section-part-p-description"> HOURS OF WORK </p>
           </div>
 
           <div className="five-section-part">

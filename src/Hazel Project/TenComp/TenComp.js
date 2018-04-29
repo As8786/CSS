@@ -5,8 +5,8 @@ import './ten.css'
 export default class Ten extends React.Component{
     render(){
         return(
-            <div className="ten-conatiner" >
-                <h2> HAZEL  </h2>
+            <div className="ten-container" >
+                <h4> HAZEL  </h4>
                 <div className="icon-container">
                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                     <a href="#"> <i class="fab fa-twitter"></i> </a>

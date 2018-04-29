@@ -1,13 +1,17 @@
 .six-container {
-  height: 92vh;
+  height: 90vh;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  margin-top: 57px;
+  margin-top: 27px;
 }
 
 .six-container h1 {
   padding-top: 35px;
   margin-bottom: 50px;
+  letter-spacing: 10px;
+  font-weight: 200;
+  font-size: 1.5em;
+  color:#5a5959;
 }
 
 .six-first-section {
@@ -22,8 +26,22 @@
 }
 
 .six-part i {
-  font-size: 2em;
+  font-size: 2.5em;
+  opacity: 0.6;
 }
+
+.six-part h5{
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+
+.six-part p{
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  word-spacing: 2px;
+}
+
 
 @media screen and (max-width: 768px) {
   .six-container {

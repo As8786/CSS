@@ -15,12 +15,14 @@
     font-size: 0.8em;
     color:#303030;
     margin-bottom: 7px;
+    letter-spacing: 2px;
 }
 
 .four-section p {
     text-align: justify;
     font-size: 0.85em;
     color:#595959;
+    letter-spacing: 1px;
 }
 
 @media  screen and (max-width: 910px) {

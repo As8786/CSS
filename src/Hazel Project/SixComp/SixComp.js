@@ -4,23 +4,23 @@ import './six.css'
 class Six extends React.Component{
     render(){
         return <div className="six-container" >
-            <h1> OUR SERVICE </h1>
+            <h1> OUR SERVICES </h1>
             <div className ="six-first-section">
                 <div className="six-part">
                      <i class="fas fa-paint-brush"></i>
-                    <h4> UNIQUE DESIGN </h4>
+                    <h5> UNIQUE DESIGN </h5>
                     <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet consect.</p>
                 </div>
 
                 <div className="six-part">
                     <i class="fab fa-grav"></i>
-                    <h4> EASY TO WORK </h4>
+                    <h5> EASY TO WORK </h5>
                     <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet consect.</p>
                 </div>
 
                 <div className="six-part">
                     <i class="fas fa-video"></i>
-                    <h4> UNLIMITED PORTFOLIOS </h4>
+                    <h5> UNLIMITED PORTFOLIOS </h5>
                     <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet consect.</p>
                 </div>
 
@@ -28,20 +28,20 @@ class Six extends React.Component{
 
             <div className ="six-first-section">
                 <div className="six-part">
-                     <i class="fas fa-paint-brush"></i>
-                    <h4> UNIQUE DESIGN </h4>
+                <i class="fas fa-bicycle"></i>
+                    <h5> UNIQUE DESIGN </h5>
                     <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet consect.</p>
                 </div>
 
                 <div className="six-part">
-                    <i class="fab fa-grav"></i>
-                    <h4> EASY TO WORK </h4>
+                    <i class="fas fa-bus"></i>
+                    <h5> EASY TO WORK </h5>
                     <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet consect.</p>
                 </div>
 
                 <div className="six-part">
-                    <i class="fas fa-video"></i>
-                    <h4> UNLIMITED PORTFOLIOS </h4>
+                <i class="fas fa-space-shuttle"></i>
+                    <h5> UNLIMITED PORTFOLIOS </h5>
                     <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet consect.</p>
                 </div>
 
