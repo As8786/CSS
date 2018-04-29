@@ -7,15 +7,18 @@ class Second extends React.Component {
       <div className="second-conatiner">
         <div className="second-section">
           <i className="fas fa-edit hello" />
-          <p> Profesionally repurpose premium rather than magnetic bandwith</p>
+          <h6> CLEAN DESIGN </h6>
+          <p> Professionally repurpose premium rather than magnetic bandwith. </p>
         </div>
         <div className="second-section">
           <i className="fas fa-gift" />
-          <p> Profesionally repurpose premium rather than magnetic bandwith </p>
+          <h6> PREMIUM RESOURCES </h6>
+          <p> Professionally repurpose premium rather than magnetic bandwith. </p>
         </div>
         <div className="second-section">
           <i className="fas fa-laptop" />
-          <p> Profesionally repurpose premium rather than magnetic bandwith </p>
+          <h6> RESPONSIVE LAYOUT </h6>
+          <p> Professionally repurpose premium rather than magnetic bandwith. </p>
         </div>
       </div>
     );

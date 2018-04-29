@@ -7,7 +7,7 @@ export default class Four extends React.Component {
     return (
       <div className="four-container">
         <div className="four-section">
-          <h3> OUR VALUES</h3>
+          <h6> OUR VALUES</h6>
           <p>
             Uniquely create competitive e-markets for backward-compatible
             technologies. Authoritatively morph efficient networks via
@@ -18,7 +18,7 @@ export default class Four extends React.Component {
           </p>
         </div>
         <div className="four-section">
-          <h3>OUR MISSION </h3>
+          <h6>OUR MISSION </h6>
           <p>
             Conveniently maximize standardized web-readiness without integrated
             products. Competently productivate fully researched results via
@@ -28,7 +28,7 @@ export default class Four extends React.Component {
           </p>
         </div>
         <div className="four-section">
-          <h3>OUR SKILLS</h3>
+          <h6>OUR SKILLS</h6>
           <p>
             Conveniently maximize standardized web-readiness without integrated
             products. Competently productivate fully researched results via

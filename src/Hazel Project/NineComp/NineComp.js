@@ -26,7 +26,7 @@ export default class Nine extends React.Component{
 
                 <div className="img-container" >
                     {imgTab.map((el, i)=> <div className ="img-display"
-                    style={{backgroundImage:`url(/${el})`}}
+                    style={{backgroundImage:`url(/hazel/${el})`}}
                     onMouseOver={()=>this.setCurrentInformationValue(Tab[i])}
                     
                     />

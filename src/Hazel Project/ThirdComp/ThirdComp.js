@@ -7,7 +7,7 @@ class Third extends React.Component {
     return (
       <div className="third-container">
         <div className="third-first-section">
-          <h1> We Work Hard </h1>
+          <h3> WE WORK HARD </h3>
           <p>
             Intrinsicly engineer one-to-one partnerships with error-free
             customer service. Competently optimize goal-oriented technology via

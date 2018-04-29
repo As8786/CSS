@@ -7,16 +7,26 @@
 }
 
 .second-section {
-  width: 25%;
+  width: 30%;
   text-align: center;
 }
 
 .second-section i {
   font-size: 1.95em;
+  color: #3f3f3f;
+}
+
+.second-section h6{
+  color: #3f3f3f;
+  font-size: .8em;
+  font-weight: bold;
+  margin-bottom: 7px;
 }
 
 .second-section p {
   font-family: "Open Sans", sans-serif;
+  font-size: .9em;
+  color: #595959;
 }
 
 @media screen and (max-width: 594px) {

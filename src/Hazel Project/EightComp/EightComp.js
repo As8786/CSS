@@ -11,14 +11,14 @@ export default class Eight extends React.Component{
             <h5> VIEW ALL PORTFOLIO  </h5>
 
             <div className="eight-section">
-                {tab1.map((el,i) => <div className="eight-section-part" style={{backgroundImage:`url(/${el})`}}> 
+                {tab1.map((el,i) => <div className="eight-section-part" style={{backgroundImage:`url(/hazel/${el})`}}> 
                     <div className="gradient" />
                     </div>
                     )}
             </div>
             
             <div className="eight-section">
-                {tab2.map((el,i) => <div className="eight-section-part" style={{backgroundImage:`url(/${el})`}}> 
+                {tab2.map((el,i) => <div className="eight-section-part" style={{backgroundImage:`url(/hazel/${el})`}}> 
                      <div className="gradient" />
                      </div>
                      )}

@@ -1,53 +1,68 @@
 .third-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 80vh;
   background-color: ghostwhite;
+  margin-top: 27px;
 }
 
 .third-first-section {
   width: 30%;
+  padding-left : 150px;
 }
 
-.third-first-section h1 {
+.third-first-section h3 {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+  font-weight: normal;
+  color:#707070;
+  letter-spacing: 10px;
+  margin-bottom: 7px;
 }
 
 .third-first-section p {
   font-family: "Open Sans", sans-serif;
   text-align: justify;
+  color:#595959;
+  font-size:0.8em;
 }
 
 .third-first-section input {
-  font-family: "Open Sans", sans-serif;
-}
-
-.third-first-section input {
+  margin-top:37px;
+  background: transparent;
   border: 2px solid black;
   width: 200px;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+  font-weight: 600;
+  font-size:.7em;
+  letter-spacing: 2.1px;
 }
 
 .third-second-section {
-  height: 60vh;
+  height: 70vh;
   width: 45%;
-  background-image: url("/third.png");
+  background-image: url("/hazel/third.png");
   background-size: cover;
   background-position: center;
+  
 }
 
 @media screen and (max-width: 910px) {
   .third-container {
+    height: auto;
     flex-direction: column;
   }
   .third-first-section {
     text-align: center;
     width: 80%;
     margin-bottom: 37px;
+    padding-left: 0;
   }
   .third-second-section {
-    width: 60%;
-    height: 40vh;
+    width: 80%;
+    height: 50vh;
   }
 }

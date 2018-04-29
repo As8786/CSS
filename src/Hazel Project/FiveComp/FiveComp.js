@@ -6,6 +6,7 @@ class Five extends React.Component {
     return (
       <div className="five-container">
         <div className="light-gradiant" />
+        <div className='five-text-container'>
         <h1> AGENCY ACHIEVEMENTS </h1>
 
         <div className="five-section">
@@ -31,6 +32,7 @@ class Five extends React.Component {
             <i class="fas fa-football-ball" />
             <p className="five-section-part-p-number"> 11250 </p>
             <p className="five-section-part-p-description">SOCIAL FOLLOWERS</p>
+          </div>
           </div>
         </div>
       </div>

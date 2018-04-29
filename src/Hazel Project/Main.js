@@ -1,5 +1,5 @@
 import React from 'react'
-
+import First from "./FirstComp/FirstComp"
 import Second from './SecondComp/Second'
 import Third from './ThirdComp/ThirdComp'
 import Four from './FourComp/FourComp'
@@ -14,6 +14,7 @@ class Main extends React.Component{
     render(){
         return (
             <div >
+                <First/>
                 <Second />
                 <Third />
                 <Four />
