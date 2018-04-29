@@ -19,7 +19,7 @@
   background: linear-gradient(rgba(56, 56, 56, 1), rgba(56, 56, 56, 0.2));
 }
 
-.five-text-container{
+.five-text-container {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -64,10 +64,9 @@
   font-weight: bold;
   letter-spacing: 2px;
   word-spacing: 5px;
-  font-weight:100;
-  font-size: .8em;
+  font-weight: 100;
+  font-size: 0.8em;
 }
-
 
 @media screen and (max-width: 768px) {
   .five-container {
@@ -88,7 +87,7 @@
   }
 }
 
-@media screen and (max-width:564px){
+@media screen and (max-width: 564px) {
   .five-container {
     height: 220vh;
   }

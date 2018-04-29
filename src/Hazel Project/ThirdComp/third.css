@@ -9,7 +9,7 @@
 
 .third-first-section {
   width: 30%;
-  padding-left : 150px;
+  padding-left: 150px;
 }
 
 .third-first-section h3 {
@@ -17,7 +17,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 1.6em;
   font-weight: normal;
-  color:#707070;
+  color: #707070;
   letter-spacing: 10px;
   margin-bottom: 7px;
 }
@@ -25,20 +25,20 @@
 .third-first-section p {
   font-family: "Open Sans", sans-serif;
   text-align: justify;
-  color:#595959;
-  letter-spacing:1px;
-  font-size:0.8em;
+  color: #595959;
+  letter-spacing: 1px;
+  font-size: 0.8em;
 }
 
 .third-first-section input {
-  margin-top:37px;
+  margin-top: 37px;
   background: transparent;
   border: 2px solid black;
   width: 200px;
   font-family: "Open Sans", sans-serif;
   outline: none;
   font-weight: 600;
-  font-size:.7em;
+  font-size: 0.7em;
   letter-spacing: 2.1px;
 }
 
@@ -48,7 +48,6 @@
   background-image: url("/hazel/third.png");
   background-size: cover;
   background-position: center;
-  
 }
 
 @media screen and (max-width: 910px) {

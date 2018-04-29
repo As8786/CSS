@@ -1,63 +1,63 @@
-.eight-container{
-    height: 90vh;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    margin-top: 57px;
+.eight-container {
+  height: 90vh;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 57px;
 }
 
-.eight-container h2{
-    color:#5a5959;
-    font-weight: 400;
-    letter-spacing: 5px;
-    font-size: 1.8em;
+.eight-container h2 {
+  color: #5a5959;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 1.8em;
 }
 
-.eight-container h5{
-    color: #303030;
-    letter-spacing:2px;
-    font-weight: 400; 
-    font-size: 0.87em;
+.eight-container h5 {
+  color: #303030;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 0.87em;
 }
 
-.eight-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.eight-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.eight-section-part{
-    width : 25%;
-    height: 30vh;
-    background-size: 100%;
-    background-position: center;
-    margin-top: 20px;
-    margin-left: 7px;
-    transition: all 2s ease;
-    position: relative;
-    border-radius: 5px;
-    background-repeat:no-repeat;
+.eight-section-part {
+  width: 25%;
+  height: 30vh;
+  background-size: 100%;
+  background-position: center;
+  margin-top: 20px;
+  margin-left: 7px;
+  transition: all 2s ease;
+  position: relative;
+  border-radius: 5px;
+  background-repeat: no-repeat;
 }
 
-.eight-section-part .gradient{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(236, 234, 234, 0.55), rgba(5, 5, 5, 0.7));
-    border-radius: 7px;
+.eight-section-part .gradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(236, 234, 234, 0.55), rgba(5, 5, 5, 0.7));
+  border-radius: 7px;
+}
+
+.eight-section-part:hover {
+  background-size: 140%;
+}
+
+@media screen and (max-width: 768px) {
+  .eight-container {
+    height: auto;
   }
-
-.eight-section-part:hover{
-    background-size: 140%;
-}
-
-@media screen and (max-width : 768px){
-    .eight-container{
-        height: auto;
-    }
-    .eight-section{
-        flex-direction: column;
-    }
-    .eight-section-part{
-        width : 60%;
-    }
+  .eight-section {
+    flex-direction: column;
+  }
+  .eight-section-part {
+    width: 60%;
+  }
 }

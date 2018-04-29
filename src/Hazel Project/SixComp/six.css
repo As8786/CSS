@@ -11,7 +11,7 @@
   letter-spacing: 10px;
   font-weight: 200;
   font-size: 1.5em;
-  color:#5a5959;
+  color: #5a5959;
 }
 
 .six-first-section {
@@ -30,18 +30,17 @@
   opacity: 0.6;
 }
 
-.six-part h5{
+.six-part h5 {
   font-weight: 400;
   letter-spacing: 2px;
   font-size: 0.8em;
 }
 
-.six-part p{
+.six-part p {
   letter-spacing: 1px;
   font-size: 0.75em;
   word-spacing: 2px;
 }
-
 
 @media screen and (max-width: 768px) {
   .six-container {

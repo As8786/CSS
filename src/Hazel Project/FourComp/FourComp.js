@@ -1,6 +1,6 @@
 import React from "react";
 
-import './four.css'
+import "./four.css";
 
 export default class Four extends React.Component {
   render() {

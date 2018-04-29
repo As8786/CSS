@@ -1,20 +1,20 @@
-.ten-container{
-    height: 30vh;
-    background-color: rgba(245,245,245,1);
-    text-align: center;
-    margin-top: 27px;
-    padding-top: 40px;
+.ten-container {
+  height: 30vh;
+  background-color: rgba(245, 245, 245, 1);
+  text-align: center;
+  margin-top: 27px;
+  padding-top: 40px;
 }
 
-.ten-container h4{
-    font-weight: 200;
-    font-size: 1.5em;
-    letter-spacing: 7px;
-    color: #616161;
+.ten-container h4 {
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: 7px;
+  color: #616161;
 }
 
-.icon-container a{
-    margin:7px;
-    color: inherit;
-    opacity: 0.77;
+.icon-container a {
+  margin: 7px;
+  color: inherit;
+  opacity: 0.77;
 }
