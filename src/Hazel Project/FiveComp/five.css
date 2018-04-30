@@ -1,5 +1,6 @@
 .five-container {
-  background-image: url("/hazel/five.jpg");
+  background-image: url("/hazel/five.jpg") ;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 80vh;

@@ -1,4 +1,5 @@
 import React from "react";
+import './main.css'
 
 import NavBar from "./NavBar/NavBar"
 import First from "./FirstComp/FirstComp";
@@ -15,7 +16,7 @@ import Seven from "./SevenComp/SevenComp";
 class Main extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main-container">
         <NavBar />  
         <First />
         <Second />

@@ -17,7 +17,10 @@ export default class Eight extends React.Component {
               className="eight-section-part"
               style={{ backgroundImage: `url(/hazel/${el})` }}
             >
-              <div className="gradient" />
+              <div className="gradient" >
+           <p> Anis </p>
+            </div>
+             
             </div>
           ))}
         </div>

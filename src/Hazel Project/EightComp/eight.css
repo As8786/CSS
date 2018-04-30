@@ -36,6 +36,16 @@
   position: relative;
   border-radius: 5px;
   background-repeat: no-repeat;
+
+}
+
+.eight-section-part .gradient:hover p{
+  display: block;
+  font-size: 1.5em;
+}
+
+.eight-section-part .gradient:hover{
+  background-color: black;
 }
 
 .eight-section-part .gradient {
@@ -44,6 +54,15 @@
   width: 100%;
   background: linear-gradient(rgba(236, 234, 234, 0.55), rgba(5, 5, 5, 0.7));
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  transition: all ease 2s;
+}
+
+.eight-section-part .gradient p{
+  display: none;
 }
 
 .eight-section-part:hover {

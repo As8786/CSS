@@ -1,5 +1,6 @@
 .navbar-container{
     height: 7vh;
+    position: absolute fixed;
 }
 
 .navabar-content{
@@ -17,10 +18,115 @@
     transition: ease 1s;
 }
 
-.log a:hover{
-    color : rgb(156, 54, 54);
-}
-
 .logo a:visited{
     color: inherit;
+}
+
+.links{
+    display:flex;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:visited{
+    color: inherit;
+}
+
+.links .menu{
+    display:flex;
+}
+
+.links .menu ul{
+    display: flex;
+}
+
+.links .menu ul li {
+    margin: 17px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links .menu ul li ul{
+    display : none;
+    position: absolute;
+    width : 100px;
+    padding: 0px;
+    margin-top:60px;
+    background-color: rgb(223, 222, 219);
+    border :1px solid grey;
+    border-radius: 3px;
+}
+
+.links .menu ul li:hover ul{
+    display: block;
+
+} 
+
+.links .menu ul li ul li{
+    margin: 0px;
+    padding : 7px 0;
+}
+
+.links .menu ul li ul li:hover{
+    background-color : rgb(238, 238, 238);
+}
+
+.responsive-menu{
+    display: none;
+    position: relative;
+}
+
+.responsive-menu a{
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: .8em;
+    text-decoration: none;
+    transition: ease 1s;
+}
+
+.responsive-menu a:visited{
+    color: inherit;
+}
+
+
+
+.responsive-menu ul{
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0; 
+    margin-top: 17px;
+    padding-top:10x; 
+    background-color: rgb(223, 222, 219);
+    border :1px solid grey;
+    border-radius: 3px;
+}
+
+.responsive-menu:hover ul{
+    display: block;
+}
+
+.responsive-menu ul li{
+    margin-top: 12px;
+    margin-bottom:12px;
+    list-style: none;
+}
+
+
+
+
+@media screen and (max-width:984px){
+    .links .menu{
+        display:none;
+    }
+     .responsive-menu{
+        display:flex;
+        flex-direction: column;
+    }
 }
